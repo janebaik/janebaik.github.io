@@ -9911,7 +9911,7 @@ a.text-primary:hover, a.text-primary:focus {
 }
 
 .text-secondary {
-  color: #6c757d !important;
+  color: #c0d3e4 !important;
 }
 
 a.text-secondary:hover, a.text-secondary:focus {
@@ -9987,7 +9987,7 @@ a.text-black:hover, a.text-black:focus {
 }
 
 .text-white-50 {
-  color: rgba(255, 255, 255, 0.5) !important;
+  color: rgba(255, 255, 255, 0.808) !important;
 }
 
 .text-hide {
@@ -10218,7 +10218,7 @@ body {
   font-size: 2.5rem;
   line-height: 2.5rem;
   letter-spacing: 0.8rem;
-  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+  background: whitesmoke;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
           background-clip: text;
@@ -10250,11 +10250,12 @@ body {
 }
 
 .about-section {
-  padding-top: 10rem;
-  background: linear-gradient(to bottom, #000000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+  padding-top: 4rem;
+  background: black;
+  padding-bottom: 5rem;
 }
 .about-section p {
-  margin-bottom: 5rem;
+  padding-bottom: 1rem;
 }
 
 .projects-section {
@@ -10286,8 +10287,8 @@ body {
 
 .signup-section {
   padding: 10rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000000 100%), url("../assets/img/bg-signup.jpg");
-  background-position: center;
+  background: #397177;
+  background-position:left;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
